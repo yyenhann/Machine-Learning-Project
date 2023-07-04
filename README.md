@@ -9,6 +9,6 @@ At the time of the project, the betting odds were only available for the group s
 
 1. *Train ML models*: Random Forest, XGBoost, Light Gradient Boosting Machines, and Logistic Regression were used to predict the probabilities of each match outcome (win, draw, loss). These models were trained on a historical international match dataset consisting of ~4000 matches.
 
-2. *Generate output probabilities that feed into the betting optimisation framework*: From the best performing model on the validation set, we use it to generate output probabilities p<sub>ij for the group stages that will be integrated into the betting optimisation framework. This would systematically determine which matches and outcomes are the best to bet on to maximise expected profit, based on a set of defined constraints.
+2. *Generate output probabilities that feed into the betting optimisation framework*: From the best performing model on the validation set, we use it to generate output probabilities p<sub>ij/<sub> for the group stages that will be integrated into the betting optimisation framework. This would systematically determine which matches and outcomes are the best to bet on to maximise expected profit, based on a set of defined constraints.
 
 3. 
