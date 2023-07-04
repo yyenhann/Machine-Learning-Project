@@ -25,7 +25,7 @@ We also broke down the highest earning matches, which has been summarised by the
 | Model (XGB) | God’s Eye    |
 |-------------|--------------|
 | Match       | Profit | Match       | Profit |
-|-------------|-------:|-------------|-------:|
+|-------------|--------|-------------|--------|
 | CAM v. BRA  | $1732.5| ARG v. KSA  | $5880.0|
 | JPN v. CRC  | $1367.5| CAM v. BRA  | $1732.5|
 | AUS v. DEN  | $1345.0| JPN v. CRC  | $1367.5|
