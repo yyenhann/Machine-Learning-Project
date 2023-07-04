@@ -20,17 +20,63 @@ We selected XGBoost for generating output probabilities as it yielded the highes
 |------------------|-------------|-----------|
 | $5000            | $3,150      | $19,937.5 |
 
-We also broke down the highest earning matches, which has been summarised by the following table:
+We also broke down the highest earning matches for both our model and God's Eye, summarised by the following table:
 
-| Model (XGB) | God’s Eye    |
-|-------------|--------------|
-| Match       | Profit | Match       | Profit |
-|-------------|--------|-------------|--------|
-| CAM v. BRA  | $1732.5| ARG v. KSA  | $5880.0|
-| JPN v. CRC  | $1367.5| CAM v. BRA  | $1732.5|
-| AUS v. DEN  | $1345.0| JPN v. CRC  | $1367.5|
-| JPN v. ESP  | $1260.0| AUS v. DEN  | $1345.0|
-| KOR v. POR  | $565.0 | GER v. JPN  | $1320.0|
-
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Model (XGB)</th>
+      <th colspan="2">God’s Eye</th>
+    </tr>
+    <tr>
+      <th>Match</th>
+      <th>Profit</th>
+      <th>Match</th>
+      <th>Profit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CAM v. BRA</td>
+      <td>$1732.5</td>
+      <td>ARG v. KSA</td>
+      <td>$5880.0</td>
+    </tr>
+    <tr>
+      <td>JPN v. CRC</td>
+      <td>$1367.5</td>
+      <td>CAM v. BRA</td>
+      <td>$1732.5</td>
+    </tr>
+    <tr>
+      <td>AUS v. DEN</td>
+      <td>$1345.0</td>
+      <td>JPN v. CRC</td>
+      <td>$1367.5</td>
+    </tr>
+    <tr>
+      <td>JPN v. ESP</td>
+      <td>$1260.0</td>
+      <td>AUS v. DEN</td>
+      <td>$1345.0</td>
+    </tr>
+    <tr>
+      <td>KOR v. POR</td>
+      <td>$565.0</td>
+      <td>GER v. JPN</td>
+      <td>$1320.0</td>
+    </tr>
+  </tbody>
+</table>
 
 We also continued using the XGBoost model to predict the entire outcome of the World Cup: Round of 16, Quarter Finals, Semi Finals, and Finals (these are in the presentation). France was determined to be the eventual winner (we were close, even though we wanted Argentina to win it all!).
+
+## Report
+[15.095 Final Report](./ML-Report.pdf)
+
+## Presentation
+[15.095 Final Presentation](./ML-Presentation.pdf)
+
+## Notebooks
+- *01-modelling-and-predictions.ipynb*: Train, validate, and test various Machine Learning models to identify the best performing predictive model.
+- *02-optimal-betting-framework.ipynb*: Formulated betting strategy or framework for the 2022 FIFA World Cup Group Stage matches (Julia, JuMP, Gurobi).
